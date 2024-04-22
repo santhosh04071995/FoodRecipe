@@ -1,0 +1,34 @@
+.logoimg{
+    width: 50px;
+    height: 50px;
+}
+.content_img{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.acc_btn {
+    font-size: large !important;
+    padding: 5px !important;
+    border: aliceblue !important;
+    color: white !important;
+    background-color: forestgreen
+}
+button {
+    border: unset;
+    font-size: unset;
+    color: #fff;
+    padding: unset;
+    border-color: unset;
+}
+@media(max-width:767px){
+    .recp,.details{
+            display: none;
+        }
+    }
+
+@media(min-width:767px){
+        .acc_btn{
+                display: none;
+            }
+        }
